@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+body{
+    background-color: #222326;
+    font-family: 'PT Sans Narrow', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 970px;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 5px;
+    flex-direction: row;
+    border: solid 5px #4A5B8C;
+    background-color: #4A5B8C;
+    color:#BFCDD9;
+
+}
+
+
+/*---begin header---*/
+div header {
+    width: 40%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #BFCDD9;
+    color:#4A5B8C;
+    top: 0; 
+}
+h4{
+    margin: 0px 0px 0px 0px;
+}
+.titulo h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 25px;
+    
+}
+.foto img {
+    border-radius: 50%;
+    justify-content: center;
+    margin-left: 25px;
+}
+.user::before{
+    content: url(../../imagens/icones/usuario.png);
+    position: absolute;
+    margin-left: -35px;
+    margin-top: -5px;
+    
+}
+.email::before{
+    content: url(../../imagens/icones/e-mail.png);
+    position: absolute;
+    margin-left: -35px;
+    margin-top: -5px;
+    
+}
+
+.endereco::before{
+    content: url(../../imagens/icones/endereco.png);
+    position: absolute;
+    margin-left: -39px;
+    margin-top: -5px;
+}
+.telefone::before{
+    content: url(../../imagens/icones/telefone.png);
+    position: absolute;
+    margin-left: -39px;
+    margin-top: -7px;
+}
+.contato ul {
+    list-style: none;
+    padding-left: 0;
+}
+.contatoLista li {
+    padding-left: 32px;
+    margin: 10px 0 5px 10px;
+}
+
+.icon ul {
+    list-style: none;
+    text-decoration: none;
+    flex-direction: column;
+    display: flex;
+}
+.facebook::before{
+    content: url(../../imagens/icones/facebook.png);
+    position: absolute;
+    margin-top: 28px;
+    margin-left: 10px;
+    
+}
+.instagram::before{
+    content: url(../../imagens/icones/instagram.png);
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 10px; 
+}
+.github::before{
+    content: url(../../imagens/icones/github.png);
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 10px; 
+     
+}
+.linkedin::before{
+    content: url(../../imagens/icones/linkedin.png);
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 10px;   
+}
+.gmail::before{
+    content: url(../../imagens/icones/gmail.png);
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 10px;  
+}
+.hobbies::before{
+    content: url(../../imagens/icones/hobbies.png);
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 10px;  
+}
+
+.contatoPg::before{
+    content: url(../../imagens/icones/contato.png);
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 10px;   
+}
+
+.icon{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+.icon ul {
+    list-style: none;
+    text-decoration: none;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.icon ul a{
+    display: flex;
+    width: 20px;
+    height: auto;
+    margin-top: 32px;
+    margin-left: 45px;
+    justify-content: space-around;
+    flex-direction: column;
+    list-style: none;
+    text-decoration: none;
+    
+}
+/*---end header---*/
+
+/*---Begin Sections---*/
+.sobre{
+    list-style: none;
+    color: #BFCDD9;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0;
+}
+.sobre ul li{
+    padding: 0px;
+    margin: 0;
+}
+.sobre ul{
+    list-style: none;
+    margin-left: 5px;
+    margin-top: 0;
+}
+.sobremim::before{
+    content: url(../../imagens/icones/globo.png);
+    position: absolute;
+    margin-top: -2px;
+    margin-left: -40px;
+    margin-right: -10px;  
+}
+.objetivo::before{
+    content: url(../../imagens/icones/objetivo.png);
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -40px;
+    margin-right: -10px;  
+}
+.habilidades::before{
+    content: url(../../imagens/icones/habilidade.png);
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -40px;
+    margin-right: -10px;
+}
+.academica::before{
+    content: url(../../imagens/icones/graduacao.png);
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -40px;
+    margin-right: -10px; 
+}
+.cursos::before{
+    content: url(../../imagens/icones/cusos.png);
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -40px;
+    margin-right: -10px;  
+}
+.job::before{
+    content: url(../../imagens/icones/job.png);
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -40px;
+    margin-right: -10px;
+}
+/*---End Sections---*/
+
+/*---Begin Footer---*/
+
+.rodape {
+    width : 100%;
+    height : auto;
+    margin-left: 50px;
+    text-align: center;
+
+}
+

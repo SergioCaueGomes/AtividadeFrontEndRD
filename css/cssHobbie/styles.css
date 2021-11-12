@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1C2226;
+    font-family: 'PT Sans Narrow', sans-serif;
+
+}
+.container{
+    border: solid 7px #F2D541;
+    width: 990px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #1C2226;
+}
+header{
+    width: 976px;
+    height: 180px;
+    background-color: #8D9CA6;
+    border: dotted 5px #1C2226;
+    text-align: center;
+    font-size: 15px;
+    padding: 30px;
+    color: #1C2226;
+    margin: 0px;
+    
+}
+header h1{
+    margin: 0px;
+   
+}
+header li {
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: 15px;
+    
+}
+.curriculo::before{
+    content: url(../../imagens/icones/curriculos.png);
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -40px;  
+}
+.contato::before{
+    content: url(../../imagens/icones/contato.png);
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -50px;  
+}
+
+.sectionB{
+    width: 300px;
+    height: auto;
+    background-color: #F2CB57;
+    border: dotted 5px #1C2226;
+    padding: 30px;
+    text-align: justify;
+    font-size: large;
+    color: #1C2226;
+    display: inline-block;
+    vertical-align: top;
+}
+p {
+    margin: 0px ;
+}
+img{
+    margin-top: 5px;
+    margin-bottom: 21px;
+}
+.sectionC{
+    width: 672px;
+    height: auto;
+    background-color: #F2CB57;
+    border: dotted 5px #1C2226;
+    margin-left: 0px;
+    padding: 30px;
+    text-align: justify;
+    font-size: 15px;
+    color: #1C2226;
+    display: inline-block;
+    vertical-align: top;
+}
+video {
+    width:400px;
+    height: 351px;
+}
+footer{
+    width: 976px;
+    height: 200px;
+    background-color: #8D9CA6;
+    border: dotted 5px #1C2226;
+    padding: 30px;
+    text-align: center;
+    color: #1C2226;
+}
+
+@media (max-width: 768px){
+
+}
+    
+
+@media (min-width: 460px){
+  
+    
+}

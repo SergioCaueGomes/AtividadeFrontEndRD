@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UT-8F"/>
+        <title>Contato</title>
+        <link  rel="stylesheet" href="styles/../../curriculo-hobbies-contato/css/cssContato/styles.css">
+    </head>
+    <body>
+        <!-- Div Container -->
+        <div class="container">
+            <ul>
+                <li class="curriculo">
+                    <a href="./index.html"> Pagina Curriculum </a>
+                </li>
+                <li class="contato">
+                    <a href="./hobbies.html">Pagina Contato </a>
+                </li>     
+            </ul>
+
+            <h1>Formulário de Contato</h1>
+            <form method="post">
+                <label for="genero">Feminino</label>
+                    <input type="radio" name="genero" value="Feminino">
+                <label for="genero">Masculino</label>
+                    <input type="radio" name="genero" value="Masculino"><br/><br>
+
+                    <label class="dados" for="nome">Nome Sobrenome: </label><br/>
+                        <input type="text" name=" " placeholder="Nome Sobrenome" required/><br/>
+                    <label class="dados" for="email">E-mail: </label><br>
+                        <input type="email" placeholder="usuario@rd.com.br" required/><br><br>
+
+                    <label for="check"> Tipo Musical </label><br>
+                    <label for="check">Rock </label>
+                        <input type="checkbox" name="tipoMusical" value="Rock">
+                    <label for="check">RAP </label>
+                        <input type="checkbox" name="tipoMusical" value="RAP">
+                    <label for="check">Samba </label>
+                        <input type="checkbox" name="tipoMusical" value="Samba"><br><br>
+
+                    <select required>
+                        <option value="">Passa Tempos...</option>
+                        <optgroup> 
+                            <option value="Cine">Cinema</option>
+                            <option value="foot">Futebol</option>
+                            <option value="SK8">Skate</option>
+                            <option value="Ler">Games</option>
+                            <option value="Ler">Leitura</option>
+                        </optgroup>
+                    </select><br><br>
+
+                    <label for="check"> Mensagem </label><br>
+                <textarea name="Mensagem"></textarea></br>
+
+                    <button type="submit">Enviar</button>
+                    <button type="Reset">Excluir</button>
+            </form>
+        </div>
+    </body>
+</html>
